@@ -1,0 +1,57 @@
+header{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #DC143C;
+    color: #fff;
+    padding: 15px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+header a{
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+}
+
+span{
+    color:#800000 ;
+}
+/* Area de comprar */
+.area-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+    gap:50px;
+}
+
+.area-principal img{
+    width: 600px;
+}
+.area-principal h2{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.area-principal .riscado{
+    text-decoration: line-through;
+}
+
+.area-principal button{
+    margin-top: 15px;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #32CD32;
+    color: #fff;
+    border: none;
+}
+
+.paragrafo{
+    overflow: hidden;
+}
